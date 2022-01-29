@@ -35,7 +35,11 @@ ui <- fluidPage(
       # display Integral
       textOutput("integ"),
       # display Retruns
-      textOutput("Return")
+      textOutput("Return"),
+      hr(),
+      hr(),
+      # repository link
+      uiOutput("tab")
       
     )
   ))
@@ -284,6 +288,10 @@ server <- function(input, output) {
           "Rendite: ",
           round((mean_den / 100) * muskcoins),
           2)
+  })
+  output$tab <- renderUI({
+    url <- a("github", href="https://github.com/czycs/deskr_stat_13_3_b")
+    tagList("github repository:", url)
   })
   
 }
