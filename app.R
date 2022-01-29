@@ -291,7 +291,4 @@ server <- function(input, output) {
 # Run the application
 
 
-options(shiny.port = 7775)
-
-options(shiny.host = "192.168.178.21")
 shinyApp(ui = ui, server = server)
