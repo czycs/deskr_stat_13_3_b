@@ -67,7 +67,7 @@ server <- function(input, output) {
     
     # calculate split and muskcoins in nft
     nft <- muskcoins - doge
-    verteilung <- doge / muskcoins
+    split <- doge / muskcoins
     # input check
     if (nft<0) {
       stop("Dogetherum must be lower or equal to muskcoins")
@@ -77,8 +77,8 @@ server <- function(input, output) {
     set.seed(1)
     # density of unif + nrom; by split of muskcoins
     den <-
-      density((runif(x, min = 6, max = 8)) * verteilung + 
-                (rnorm(x, mean = 8, sd = 2) *(1 - verteilung)))
+      density((runif(x, min = 6, max = 8)) * split + 
+                (rnorm(x, mean = 8, sd = 2) *(1 - split)))
     
     # create  plot of density
     plot(den,
@@ -157,7 +157,7 @@ server <- function(input, output) {
     
     # calculate nft and split
     nft <- muskcoins - doge
-    verteilung <- doge / muskcoins
+    split <- doge / muskcoins
     # input check
     if (nft<0) {
       stop("Dogetherum must be lower or equal to muskcoins")
@@ -167,8 +167,8 @@ server <- function(input, output) {
     set.seed(1)
     # density of unif + nrom; by split of muskcoins
     den <-
-      density((runif(x, min = 6, max = 8)) * verteilung +
-                (rnorm(x, mean = 8, sd = 2) * (1 - verteilung)))
+      density((runif(x, min = 6, max = 8)) * split +
+                (rnorm(x, mean = 8, sd = 2) * (1 - split)))
     
     # integrate(from library "sfsmisc") density from sliderinput
     area <- integrate.xy(den$x, den$y, value1, value2)
@@ -197,14 +197,14 @@ server <- function(input, output) {
     
     # calculate split and muskcoins in nft
     nft <- muskcoins - doge
-    verteilung <- doge / muskcoins
+    split <- doge / muskcoins
  
     x <- seq(0, 100, by = 0.001)
     set.seed(1)
     # density of unif + nrom; by split of muskcoins
     den <-
-      density((runif(x, min = 6, max = 8)) * verteilung + 
-                (rnorm(x, mean = 8, sd = 2) *(1 - verteilung)))
+      density((runif(x, min = 6, max = 8)) * split + 
+                (rnorm(x, mean = 8, sd = 2) *(1 - split)))
     
     # set default and max value for slider
     #   round for better visuals
@@ -264,7 +264,7 @@ server <- function(input, output) {
     doge <- input$Num_2
     # calculate split and muskcoins in nft
     nft <- muskcoins - doge
-    verteilung <- doge / muskcoins
+    split <- doge / muskcoins
     # input check
     if (nft<0) {
       stop("Dogetherum must be lower or equal to muskcoins")
@@ -277,8 +277,8 @@ server <- function(input, output) {
     set.seed(1)
     # density of unif + nrom; by split of muskcoins
     den <-
-      density((runif(x, min = 6, max = 8)) * verteilung + 
-                (rnorm(x, mean = 8, sd = 2) *(1 - verteilung)))
+      density((runif(x, min = 6, max = 8)) * split + 
+                (rnorm(x, mean = 8, sd = 2) *(1 - split)))
 
     # calculate mean of density
     mean_den <- mean(den$x)
