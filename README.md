@@ -4,7 +4,7 @@
 Unsere neue Verteilung $R_J$ setzt sich zusammen aus $R_1$ und $R_2$.
 Der Erwartungswert von  $R_J$ für das Vermögen von 200 Muskcoins ist bekannt aus 3a (214.5), also folgt daraus:
 
-<img src="https://latex.codecogs.com/png.image?\dpi{110}&space;V=Muskcoins\cdot&space;(1&plus;\frac{\frac{Muskcoins&space;In&space;Doge}{muskcoins}\cdot&space;R_1&space;&plus;\frac{Muskcoins&space;Nn&space;Nft}{muskcoins}\cdot&space;R_2}{100})" title="V=Muskcoins\cdot (1+\frac{\frac{Muskcoins In Doge}{muskcoins}\cdot R_1 +\frac{Muskcoins Nn Nft}{muskcoins}\cdot R_2}{100})" />
+<img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_blue&space;V=Muskcoins\cdot&space;(1&plus;\frac{\frac{Muskcoins&space;In&space;Doge}{muskcoins}\cdot&space;R_1&space;&plus;\frac{Muskcoins&space;Nn&space;Nft}{muskcoins}\cdot&space;R_2}{100})" title="\bg_blue V=Muskcoins\cdot (1+\frac{\frac{Muskcoins In Doge}{muskcoins}\cdot R_1 +\frac{Muskcoins Nn Nft}{muskcoins}\cdot R_2}{100})" />
 
 
 Daraus folgt:
