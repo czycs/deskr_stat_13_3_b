@@ -51,4 +51,4 @@ area <- integrate.xy(den$x, den$y, l_percent, h_percent%)
 
 Konzept visualisiert mit R Shiny:
 
-![]("pictures/r_shiny_demo")
+![R Shiny Demo](https://raw.githubusercontent.com/czycs/deskr_stat_13_3_b/main/pictures/r_shiny_demo.gif)
