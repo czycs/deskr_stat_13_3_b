@@ -1,15 +1,16 @@
 # Deskriptive Statistik Blatt 13 Aufgabe 3 b
 
 
+Unsere neue Verteilung $R_J$ setzt sich zusammen aus $R_1$ und $R_2$.
+Der Erwartungswert von  $R_J$ für das Vermögen von 200 Muskcoins ist bekannt aus 3a (214.5), also folgt daraus  
+<img src="https://latex.codecogs.com/svg.image?214.5=200\cdot&space;(1&plus;\frac{E(R_J)}{100})" title="214.5=200\cdot (1+\frac{E(R_J)}{100})" />
 
-Unsere neue Verteilung $`R_J`$ setzt sich zusammen aus $R_1$ und $R_2$.
-Der Erwartungswert von $R_J$ für das Vermögen von 200 Muskcoins ist bekannt aus 3a (214.5), also folgt daraus  
-$214.5=200\cdot (1+\frac{E(R_J)}{100})$   
-$214.5=200\cdot  (1+\frac{\frac{150}{200} \cdot E(R_1)}{100}+\frac{\frac{50}{200} \cdot E(R_2)}{100})$  
-$214.5=200\cdot (1+\frac{0.75 \cdot E(R_1) + 0.25 \cdot E(R_2)}{100})$  
-$214.5=200\cdot (1+\frac{0.75 \cdot 7 + 0.25 \cdot 8}{100})$ 
-$214.5=200\cdot (1+\frac{5,25 + 2}{100})$  
-$214.5=200\cdot (1.0725)$ => $214.5=214.5$  
+<img src="https://latex.codecogs.com/svg.image?214.5=200\cdot&space;&space;(1&plus;\frac{\frac{150}{200}&space;\cdot&space;E(R_1)}{100}&plus;\frac{\frac{50}{200}&space;\cdot&space;E(R_2)}{100})&space;" title="214.5=200\cdot (1+\frac{\frac{150}{200} \cdot E(R_1)}{100}+\frac{\frac{50}{200} \cdot E(R_2)}{100}) " />
+<img src="https://latex.codecogs.com/svg.image?214.5=200\cdot&space;(1&plus;\frac{0.75&space;\cdot&space;E(R_1)&space;&plus;&space;0.25&space;\cdot&space;E(R_2)}{100})&space;" title="214.5=200\cdot (1+\frac{0.75 \cdot E(R_1) + 0.25 \cdot E(R_2)}{100}) " />
+<img src="https://latex.codecogs.com/svg.image?214.5=200\cdot&space;(1&plus;\frac{0.75&space;\cdot&space;7&space;&plus;&space;0.25&space;\cdot&space;8}{100})" title="214.5=200\cdot (1+\frac{0.75 \cdot 7 + 0.25 \cdot 8}{100})" />
+<img src="https://latex.codecogs.com/svg.image?214.5=200\cdot&space;(1&plus;\frac{5,25&space;&plus;&space;2}{100})&space;" title="214.5=200\cdot (1+\frac{5,25 + 2}{100}) " />
+
+
 
 Daraus folgt:
 
@@ -36,7 +37,7 @@ den<-density(Muskcoins_In_Doge/muskcoins*runif(x, min = 6, max = 8)+
 ```
 
 Durch das Integral von der Dichtefunktion, können wir nun die Wahrscheinlichkeit für
-die insgesamte prozenutale Jahresrendote $R_J$: 
+die insgesamte prozentuale Jahresrendite $R_J$: 
 
 $P(l\% \leq X \leq h\%)=\int_{l\%}^{h\%}f_{R_J}(x)dx$  
 $P(l\% \leq X \leq h\%)=\int_{l\%}^{h\%}(\frac{Muskcoins In Doge}{muskcoins}\cdot R_1 +\frac{Musnkcoins-Muskcoins In Doge}{muskcoins}\cdot R_2) dx$  
