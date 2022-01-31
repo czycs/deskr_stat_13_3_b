@@ -2,7 +2,7 @@
 
 
 
-Unsere neue Verteilung $R_J$ setzt sich zusammen aus $R_1$ und $R_2$.
+Unsere neue Verteilung $`R_J`$ setzt sich zusammen aus $R_1$ und $R_2$.
 Der Erwartungswert von $R_J$ für das Vermögen von 200 Muskcoins ist bekannt aus 3a (214.5), also folgt daraus  
 $214.5=200\cdot (1+\frac{E(R_J)}{100})$   
 $214.5=200\cdot  (1+\frac{\frac{150}{200} \cdot E(R_1)}{100}+\frac{\frac{50}{200} \cdot E(R_2)}{100})$  
