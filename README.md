@@ -26,6 +26,14 @@ bzw.
 In R:  
 
 ```
+# start variable
+muskcoins <- 200
+doge <- 150
+
+# calculate nft and split
+nft <- muskcoins - doge
+split <- doge / muskcoins
+
 x <- seq(0, 100, by = 0.001)
 
 set.seed(1)
@@ -41,6 +49,9 @@ die insgesamte prozentuale Jahresrendite <img src="https://latex.codecogs.com/pn
 In R:  
 
 ```
+#integrate area
+l_percent <- 7
+h_percent <- 8
 library(sfsmisc)
 # integrate.xy(from library "sfsmisc") density
 area <- integrate.xy(den$x, den$y, l_percent, h_percent%)
