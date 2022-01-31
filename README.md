@@ -1,5 +1,8 @@
 # Deskriptive Statistik Blatt 13 Aufgabe 3 b
 
+Konzept visualisiert mit R Shiny:
+
+![R Shiny Demo](https://raw.githubusercontent.com/czycs/deskr_stat_13_3_b/main/pictures/r_shiny_demo.gif)
 
 Unsere neue Verteilung <img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;\inline&space;R_J" title="\bg_white \inline R_J" /> setzt sich zusammen aus <img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;\inline&space;R_J" title="\bg_white \inline R_1" /> und <img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;\inline&space;R_J" title="\bg_white \inline R_2" />.
 Der Erwartungswert von  <img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;\inline&space;R_J" title="\bg_white \inline R_J" /> für das Vermögen von 200 Muskcoins ist bekannt aus 3a (214.5), also folgt daraus:
@@ -42,6 +45,4 @@ library(sfsmisc)
 area <- integrate.xy(den$x, den$y, l_percent, h_percent%)
 ```
 
-Konzept visualisiert mit R Shiny:
 
-![R Shiny Demo](https://raw.githubusercontent.com/czycs/deskr_stat_13_3_b/main/pictures/r_shiny_demo.gif)
