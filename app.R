@@ -170,7 +170,7 @@ server <- function(input, output) {
       density((runif(x, min = 6, max = 8)) * split +
                 (rnorm(x, mean = 8, sd = 2) * (1 - split)))
     
-    # integrate(from library "sfsmisc") density from sliderinput
+    # integrate.xy(from library "sfsmisc") density from sliderinput
     area <- integrate.xy(den$x, den$y, value1, value2)
     
     # output for ui
@@ -286,8 +286,8 @@ server <- function(input, output) {
     paste("Expected Return:",
           round(((mean_den / 100) + 1) * muskcoins, 2),
           "Rendite: ",
-          round((mean_den / 100) * muskcoins),
-          2)
+          round((mean_den / 100) * muskcoins,2),
+           "Erwartungswert",round(mean_den,3))
   })
   output$tab <- renderUI({
     url <- a("github", href="https://github.com/czycs/deskr_stat_13_3_b")
