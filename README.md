@@ -16,11 +16,12 @@ Daraus folgt:
 Für <img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;\inline&space;R_J" title="\bg_white \inline R_J" /> gilt also:  
 
 <img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;R_J=\frac{Muskcoins&space;In&space;Doge}{muskcoins}\cdot&space;R_1&space;&plus;\frac{Muskcoins&space;In&space;Nft}{muskcoins}\cdot&space;R_2" title="\bg_white R_J=\frac{Muskcoins In Doge}{muskcoins}\cdot R_1 +\frac{Muskcoins In Nft}{muskcoins}\cdot R_2" />
+
 bzw.  
 
 <img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;R_J=\frac{Muskcoins&space;In&space;Doge}{muskcoins}\cdot&space;R_1&space;&plus;\frac{Musnkcoins-Muskcoins&space;In&space;Doge}{muskcoins}\cdot&space;R_2&space;&space;" title="\bg_white R_J=\frac{Muskcoins In Doge}{muskcoins}\cdot R_1 +\frac{Musnkcoins-Muskcoins In Doge}{muskcoins}\cdot R_2 " />
 
-<img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;R_J=\frac{Muskcoins&space;In&space;Doge}{muskcoins}\cdot&space;\mathcal{U}(6,8)&space;&plus;\frac{Musnkcoins-Muskcoins&space;In&space;Doge}{muskcoins}\cdot&space;\mathcal{N}(8,4)" title="\bg_white R_J=\frac{Muskcoins In Doge}{muskcoins}\cdot \mathcal{U}(6,8) +\frac{Musnkcoins-Muskcoins In Doge}{muskcoins}\cdot \mathcal{N}(8,4)" /> 
+<img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;R_J=\frac{Muskcoins&space;In&space;Doge}{muskcoins}\cdot&space;\mathcal{U}(6,8)&plus;\frac{Musnkcoins-Mc&space;In&space;Doge}{muskcoins}\cdot&space;\mathcal{N}(8,4)" title="\bg_white R_J=\frac{Muskcoins In Doge}{muskcoins}\cdot \mathcal{U}(6,8)+\frac{Musnkcoins-Mc In Doge}{muskcoins}\cdot \mathcal{N}(8,4)" />
 
 In R:  
 
